@@ -4,9 +4,8 @@
 
 # usage: ./backdoor-apk.sh original.apk
 
-# Dana James Traversie
-# Security Architect | Hacker-in-Residence
-# Check Point Software Technologies, Ltd.
+# Metehan Yildirim
+# Cyber Sicherheit Jr
 
 # IMPORTANT: The following packages were required on Kali Linux
 #   in order to get things rolling. These packages are likely
