@@ -1,5 +1,5 @@
 # backdoor-apk
-backdoor-apk is a shell script that simplifies the process of adding a backdoor to any Android APK file. Users of this shell script should have working knowledge of Linux, Bash, Metasploit, Apktool, the Android SDK, smali, etc. This shell script is provided as-is without warranty of any kind and is intended for educational purposes only.
+backdoor-apk ist ein Shell-Skript, das den Prozess des Hinzufügens einer Hintertür zu einer beliebigen Android-APK-Datei vereinfacht. Benutzer dieses Shell-Skripts sollten über fundierte Kenntnisse in Linux, Bash, Metasploit, Apktool, dem Android SDK, Smali usw. verfügen. Dieses Shell-Skript wird ohne jegliche Garantie bereitgestellt und ist ausschließlich zu Bildungszwecken gedacht.
 
 Usage:
 
@@ -61,4 +61,4 @@ ________|__________|__________________________________________
 root@kali:~/Code/github/backdoor-apk/backdoor-apk#
 ```
 
-The recompiled APK will be found in the 'original/dist' directory. Install the APK on a compatible Android device, run it, and handle the meterpreter connection via the generated resource script: msfconsole -r backdoor-apk.rc
+Die neu kompilierte APK wird im Verzeichnis 'original/dist' zu finden sein. Installieren Sie die APK auf einem kompatiblen Android-Gerät, führen Sie sie aus und verwalten Sie die Meterpreter-Verbindung über das generierte Ressourcenskript: msfconsole -r backdoor-apk.rc
